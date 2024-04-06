@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Realty</title>
+    <!-- <link rel="shortcut icon" href="" type="image/x-icon"> -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="css/property-styles.css" type="text/css" rel="Stylesheet" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/95dc93da07.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+</head>
+<body data-spy = "scroll" data-target = "#navbar-example">
+    <main>
+
+        <!-- header or Navbar Starts here -->
+        <header>
+            <div class="flex-container">
+                <a href="#" id="logo">XYZ Realty</a>
+                <nav>
+                <button id="nav-toggle" class="hamberger-menu">
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                    <span class="strip"></span>
+                </button>
+
+                <ul id="nav-menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Properties</a></li>
+                    <li><a href="#">Agents</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>  
+                    <li id="close-flyout"><span class="fas fa-times"></span></li>  
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <!-- header ends here -->
+
+        <!-- Property details section starts here -->
+        <section id="main-property">
+            <div id="property-details" class="flex-container">
+                <div class="address-container flex">
+                    <div class="home-icon">
+                        <span class="fa fa-home"></span>
+                    </div>
+
+                    <div>
+                        <address>
+                            <strong>234 Evergreen Terrace</strong>
+                            <small>San Francisco, CA 23321</small>       
+                        </address>
+
+                        <small class="status">
+                            <span class="for-sale"></span> For Sale
+                        </small>
+                    </div>
+
+                    <small class="year-built-sm">Built 1999 - Listed On XYZ Realty: 9 days</small>
+                </div>
+
+                <div class="property-stats-container flex">
+                    <div class="price">
+                        <div class="padded-inner-container">
+                            <strong>11,230,000</strong>
+                            <small>Listed at Price</small>
+                        </div>
+                    </div>
+
+                    <div class="beds">
+                        <div class="padded-inner-container">
+                            <strong>3</strong>
+                            <small>Beds</small>
+                        </div>
+                    </div>
+
+                    <div class="baths">
+                        <div class="padded-inner-container">
+                            <strong>2</strong>
+                            <small>Baths</small>
+                        </div>
+                    </div>
+
+                    <div class="sqft">
+                        <div class="padded-inner-container">
+                            <strong>2,600 <small>Sq. Ft</small></strong>
+                            <small>$473/ Sq. Ft</small>
+                        </div>
+                    </div>
+
+                    <small class="year-built">Built 1999 - Listed On XYZ Realty: 9 days</small>
+                </div>
+
+                <div class="actions-container flex">
+                    <div class="favorite">
+                        <button><span class="fa fa-heart"></span></button>
+                        <small>Favorite</small>
+                    </div>
+
+                    <div class="share">
+                        <button><span class="fa fa-share"></span></button>
+                        <small>Share</small>
+                    </div>
+                </div>
+            </div>
+            <!--Property details section Ends here -->
+
+            
+            <!-- image Slider Setion Starts Here -->
+            <div id="property-image-slider" class="slick">
+                <div>
+                    <img src="media/property-img-1.jpg" alt="property Image 1">
+                </div>
+
+                <div>
+                    <img src="media/property-img-2.jpg" alt="property Image 2">
+                </div>
+
+                <div>
+                    <img src="media/property-img-3.jpg" alt="property Image 3">
+                </div>
+
+                <div>
+                    <img src="media/property-img-4.jpg" alt="property Image 4">
+                </div>
+
+                <div>
+                    <img src="media/property-img-5.jpg" alt="property Image 5">
+                </div>
+
+                <div>
+                    <img src="media/property-img-6.jpg" alt="property Image 6">
+                </div>
+
+                <div>
+                    <img src="media/property-img-7.jpg" alt="property Image 7">
+                </div>
+
+                <div>
+                    <img src="media/property-img-8.jpg" alt="property Image 8">
+                </div>
+
+                <div>
+                    <img src="media/property-img-9.jpg" alt="property Image 9">
+                </div>
+            </div>
+            <!-- image Slider Setion Ends Here -->
+
+            <!-- map Setion Starts Here  -->
+            <div id="map"></div>
+            <!-- map Setion Ends  Here  -->
+
+            <!-- Street View Section Starts Here  -->
+            <div id="map"></div>
+            <!-- Street View Section Ends  Here  -->
+
+            <div class="slider-option-container flex">
+                <a href="javascript:;" id="image-view">
+                    <div class="image-fade"><span>Images</span></div>
+                    <img src="media/image-view.jpg" alt="Show Images">
+                </a>
+
+                <a href="javascript:;" id="map-view">
+                    <div class="image-fade"><span>Map</span></div>
+                    <img src="media/map-view.jpg" alt="Show Map View">
+                </a>
+
+                <a href="javascript:;" id="street-view">
+                    <div class="image-fade"><span>Street View</span></div>
+                    <img src="media/street-view.jpg" alt="Show Street View">
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- main front section ends here -->
+
+    <!-- Property Description section Starts here -->
+    <section id="property-description">
+        <div class="flex container">
+            <div class="deescription">
+                <h3>Overview</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti earum maiores cupiditate, veritatis magnam debitis dolores dolor inventore asperiores ipsa odit officia? Et debitis nam ipsa saepe non itaque harum officia, consequuntur cupiditate, sapiente a aspernatur ad omnis velit cumque, mollitia voluptatibus dolor labore. Excepturi pariatur voluptates iure quo repellat temporibus ullam vitae, vel autem vero beatae cum architecto molestiae, amet quod possimus cupiditate deleniti. Magni corrupti sequi quae id quas officia, consectetur nemo iure mollitia. Quos, dolores cum tempore ex porro quas harum tempora consectetur hic natus doloribus cumque reprehenderit sapiente nostrum voluptatum adipisci modi? Cupiditate vitae amet reiciendis. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis eligendi, ducimus voluptate hic ullam, culpa voluptates esse quia facilis iure eius minima delectus animi architecto cumque error, nesciunt labore rem! Amet delectus sapiente asperiores explicabo consectetur quia, totam eum dolorum, magnam, saepe veniam cum molestiae reprehenderit rem animi facere? Blanditiis.
+                </p>
+            </div>
+
+            <div class="listed-by-container">
+                <h3>Listed By</h3>
+                <img src="media/listing-agent.jpg" alt="Listing Agent Stuart Redman">
+                <div>
+                    <a href="#">Stuart Redman</a> - XYZ Realty Inc.
+                    <small>Real Estate Agent</small>
+                </div>
+
+                <button id="ask-a-question">Ask a Question</button>
+            </div>
+        </div>
+    </section>
+    <!-- Property Description section Ends here --> 
+    <!-- 19 : 09 -->
+
+    
+</body>
+</html>
